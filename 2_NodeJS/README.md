@@ -1,15 +1,15 @@
 # [ NodeJS ] -- SKWLNOTES-webdev
 
 ### Use Cases
-1. Mainly node is used to build lightweight servers
-2. Runs Javascript with competitive efficiency
-3. Includes "npm" (node package manager), which is full of open source developer tools
-4. Runs Javascript w/o a browser
+* Mainly node is used to build lightweight servers
+* Runs Javascript with competitive efficiency
+* Includes "npm" (node package manager), which is full of open source developer tools
+* Runs Javascript w/o a browser
 	* Note: You cannot run DOM manipulation commands in the terminal javascript interpreter
 
 Successful with NodeJS Server | Problematic with NodeJS Server
 ------------ | -------------
-Chat app -- managing thousands of messages up to 2000 characters each | Mathematicians app -- managing thousands of requests and they all require complex calculations
+Chat app -- managing thousands of messages up to 2000 characters each | Mathematician's app -- managing thousands of requests and they all require complex calculations
 
 ### Installation
 [Link to NodeJS homepage](https://nodejs.org/en/)
@@ -37,7 +37,9 @@ $ sudo chown -R $(whoami) /usr/local/
 
 ### Helpful NPM installs
 
-1. `$ npm install nodemon` -- automatically runs a JS file as you make changes to it (great for bug detection)
+* `$ npm install nodemon` -- automatically runs a JS file as you make changes to it (great for bug detection)
 	* To use after install just use the nodemon command followed by the name of the javascript file `$ nodemon test.js`
-2. 
 
+### Relevant articles
+
+* [6 Main Reasons Why Node.js Has Become a Standard for Enterprise-Level Organizations](https://www.monterail.com/blog/nodejs-development-enterprises)
