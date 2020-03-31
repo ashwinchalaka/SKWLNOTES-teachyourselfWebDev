@@ -8,10 +8,15 @@
 
 ### Key Vocabulary
 * ***JSX:*** a syntatic extension of JavaScript.
-* ***ReactDOM:*** React's rendering API that allows us to render content to the DOM while using only JSX, as seen here
+* ***ReactDOM API:*** React's rendering API that allows us to render content to the DOM while using only JSX, as seen here
 	
 	```
-	ReactDOM.render(JSX, document.getElementById('root'))
+	{/* Generic syntax */}
+	ReactDOM.render(componentToRender, targetNode);
+	{/* Example of rendering an element (html variable) to the DOM */}
+	ReactDOM.render(JSX, document.getElementById('root'));
+	{/* Example of rendering a component (complilation of html) to the DOM */}
+	ReactDOM.render(<TypesOfFood />,document.getElementById('challenge-node'));
 	```
 	"You can pass defined JSX elements directly in as the first argument and use document.getElementById() to select the DOM node to render them to."
 * ***component:*** essentially a method
@@ -33,12 +38,21 @@
 1. JSX Hello World
 2. Inserting HTML using JSX
 3. Comments syntax
-4. Using ReactDOM.render() to render html to the DOM
+4. Using ReactDOM.render() to render **HTML** to the DOM
 5. JSX keywords for HTML vs HTML keywords (ie. class is className)
 6. JSX tags for HTML vs HTML tags (ie. `<br />` instead of `<br>`)
 7. Stateless Functional Component -- for manipulating HTML with functions
 8. Housing components in classes, also parent and child classes
-9. Nested components
+9. Nested components and Double Nested components (not official name) -- chiild, parent, grandparent essentially
+10. More nested components (more complex "compositions")
+11. Using ReactDOM.render() to render a **component** to the DOM
+12. Everything we already learned, but from scratch
+	* create a component that extends React.Component
+	* create a constructor that calls the parents constructor
+	* create a render() function that returns() the html
+	* close out the component class
+	* use ReactDOM API to render the component to the document at a particular location referenced by id
+13. 
 
 ### Information Sources
 * [Learn web development on freecodecamp.com](https://www.freecodecamp.org/learn/)
