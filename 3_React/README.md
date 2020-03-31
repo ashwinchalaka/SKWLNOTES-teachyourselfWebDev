@@ -19,9 +19,9 @@
 	ReactDOM.render(<TypesOfFood />,document.getElementById('challenge-node'));
 	```
 	"You can pass defined JSX elements directly in as the first argument and use document.getElementById() to select the DOM node to render them to."
-* ***component:*** essentially a method
-* ***stateless functional component:*** receives data, able to manipulate it, but does not continue to monitor changes after that.
-* ***arrow function syntax:*** JS functions use arrow syntax to define a function, as follows
+* ***Component:*** essentially a method
+* ***Stateless Functional Component:*** receives data, able to manipulate it, but does not continue to monitor changes after that.
+* ***Arrow Function Syntax:*** JS functions use arrow syntax to define a function, as follows
 	
 	```
 	const ChildComponent = () => {
@@ -32,7 +32,7 @@
 	  );
 	};
 	```
-* 
+* ***React 'props' or 'properties':*** 
 
 ### Learning React Steps (on freeCodeCamp)
 1. JSX Hello World
@@ -46,12 +46,12 @@
 9. Nested components and Double Nested components (not official name) -- chiild, parent, grandparent essentially
 10. More nested components (more complex "compositions")
 11. Using ReactDOM.render() to render a **component** to the DOM
-12. Everything we already learned, but from scratch
-	* create a component that extends React.Component
-	* create a constructor that calls the parents constructor
-	* create a render() function that returns() the html
-	* close out the component class
-	* use ReactDOM API to render the component to the document at a particular location referenced by id
+12. **Everything from above, but from scratch**
+	* _create a component that extends React.Component_
+	* _create a constructor that calls the parents constructor_
+	* _create a render() function that returns() the html_
+	* _close out the component class_
+	* _use ReactDOM API to render the component to the document at a particular location referenced by id_
 13. 
 
 ### Information Sources
