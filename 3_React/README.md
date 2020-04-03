@@ -53,8 +53,10 @@
 	* _close out the component class_
 	* _use ReactDOM API to render the component to the document at a particular location referenced by id_
 13. Passing information through 'props' (a.k.a. properties) when you call components
-	* string arguments
-	* array arguments
+	* string arguments w/ key-value pair
+	* array arguments w/ key-value pair
+	* default arguments w/ key-value pair
+	* number arguments w/ key-value pair
 14. 
 
 ### Information Sources
