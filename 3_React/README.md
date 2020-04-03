@@ -32,7 +32,7 @@
 	  );
 	};
 	```
-* ***React 'props' or 'properties':*** 
+* ***React 'props' or 'properties':*** We use props to encode data into the html content. Something saved in the database or taken from somewhere on the page (either through a form or an interaction) can be sent into a functional component and passed as an argument for that function.
 
 ### Learning React Steps (on freeCodeCamp)
 1. JSX Hello World
@@ -52,7 +52,7 @@
 	* _create a render() function that returns() the html_
 	* _close out the component class_
 	* _use ReactDOM API to render the component to the document at a particular location referenced by id_
-13. 
+13. Passing information through 'props' (a.k.a. properties) when you call components
 
 ### Information Sources
 * [Learn web development on freecodecamp.com](https://www.freecodecamp.org/learn/)
