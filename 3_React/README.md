@@ -33,6 +33,7 @@
 	};
 	```
 * ***React 'props' or 'properties':*** We use props to encode data into the html content. Something saved in the database or taken from somewhere on the page (either through a form or an interaction) can be sent into a functional component and passed as an argument for that function.
+* ***'const' vs. 'component':***  I would use a constant when I wish to store static HTML code and even to encode data. Components are useful for data and html manipulation.
 
 ### Learning React Steps (on freeCodeCamp)
 1. JSX Hello World
@@ -57,7 +58,7 @@
 	* array arguments w/ key-value pair
 	* default arguments w/ key-value pair
 	* number arguments w/ key-value pair
-14. 
+14. Define prop 'types', specifies the type of data expected in a particular props argument.
 
 ### Information Sources
 * [Learn web development on freecodecamp.com](https://www.freecodecamp.org/learn/)
