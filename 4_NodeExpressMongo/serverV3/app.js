@@ -11,7 +11,7 @@ const server = http.createServer(function (request, response)
     // this is how we do routing:
     // The first if request.url is for the root route "http://localhost:6789/"
     if(request.url === '/') {
-        fs.readFile('index.html', 'utf8', function (errors, contents){
+        fs.readFile('views/index.html', 'utf8', function (errors, contents){
             response.writeHead(200, {'Content-Type': 'text/html'});  // send data about response
             response.write(contents);  //  send response body
             response.end(); // finished!
@@ -19,21 +19,21 @@ const server = http.createServer(function (request, response)
     }
     // The second if request.url is for an additional route "http://localhost:6789/home"
     else if (request.url === '/home') {
-        fs.readFile('index2.html', 'utf8', function (errors, contents){
+        fs.readFile('views/index2.html', 'utf8', function (errors, contents){
             response.writeHead(200, {'Content-Type': 'text/html'});  // send data about response
             response.write(contents);  //  send response body
             response.end(); // finished!
         });
     }
     else if (request.url === '/indexDesign.css') {
-        fs.readFile('indexDesign.css', 'utf8', function(errors, contents) {
+        fs.readFile('static/indexDesign.css', 'utf8', function(errors, contents) {
             response.writeHead(200, {'Content-type': 'text/css'});
             response.write(contents);
             response.end();
         })
     }
     else if (request.url === '/index2Design.css') {
-        fs.readFile('index2Design.css', 'utf8', function(errors, contents) {
+        fs.readFile('static/index2Design.css', 'utf8', function(errors, contents) {
             response.writeHead(200, {'Content-type': 'text/css'});
             response.write(contents);
             response.end();
